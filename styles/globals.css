@@ -1,0 +1,174 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth !important; /* !important es necesario para que el smooth scroll funcione (por alguna razon) */
+}
+
+@layer base {
+  body {
+    @apply bg-[#ecf0f3] text-[#1f2937] tracking-wide;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold;
+  }
+
+  h1 {
+    @apply text-4xl sm:text-5xl md:text-6xl;
+  }
+
+  h2 {
+    @apply text-3xl sm:text-4xl;
+  }
+
+  li {
+    @apply cursor-pointer;
+  }
+
+  button {
+    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white;
+  }
+}
+
+@layer components {
+  .social-container {
+    @apply flex items-center justify-between;
+  }
+
+  .social-navbar {
+    @apply my-4 w-full sm:w-[80%];
+  }
+
+  .social-main {
+    @apply max-w-[150px] m-auto py-4;
+  }
+
+  .social-contact {
+    @apply py-4;
+  }
+}
+
+#face-button-box{
+  text-align: center;
+  margin-top: 5vh;
+  margin-bottom: 28px;
+}
+
+.face-button {
+  border-radius: 2px;
+  height: 64px;
+  display: inline-block;
+  border: 3px solid #5651e5;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  color: #5651e5;
+  overflow: hidden;
+}
+.face-button .icon {
+  margin-right: 6px;
+}
+.face-button .face-primary,
+.face-button .face-secondary {
+  display: block;
+  padding: 0 32px;
+  line-height: 64px;
+  transition: margin 0.4s;
+}
+.face-button .face-primary {
+  background-color: #5651e5;
+  color: #fff;
+}
+.face-button:hover .face-primary {
+  margin-top: -64px;
+}
+
+#main-body {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 95%;
+}
+
+.projectItem {
+  transition: background-color 0.7s;
+}
+
+.projectItem:hover{
+  background-color: #5651e5;
+}
+
+#cad-portfolio {
+  display: none;
+}
+
+.flex-cad {
+  display: flex;
+  width: 780px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+.dotnetlab {
+  width: 35%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.dotnetlab img {
+  width: 100%;
+}
+
+.cad-intro {
+  width: 780px;
+  vertical-align: center;
+  font-size: 1.3rem;
+  text-align: justify;
+}
+
+.cad-description {
+  width: 780px;
+  font-size: 1.3rem;
+  text-align: justify;
+  margin: 50px auto;
+}
+
+.slideshow {
+  position: relative;
+  width: 780px;
+  height: 60vh;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+.slideshow img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.slideshow img.active {
+  opacity: 1;
+}
+
+.between-portfolio-text {
+  text-align: center;
+  width: 100%;
+  font-size: 1.4rem;
+  color: #575757;
+  font-weight: bold;
+}
