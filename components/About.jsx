@@ -13,7 +13,7 @@ const About = () => {
           </p>
           <h2 className='py-4'>Who I am</h2>
           <p className='py-2 text-gray-600'>
-            My name is Rikko Keuppens, a student Applied Computer Science at Thomas More University in Geel. I was born in 2001 and raised in Herenthout. As a future full stack developer, I am passionate about creating innovative and user-friendly software solutions that enhance people's lives. <br/><br/>
+            My name is Rikko Keuppens, a student Applied Computer Science at Thomas More University in Geel. I was born in 2001 and raised in Herenthout. As a future full stack developer, I am passionate about creating innovative and user-friendly software solutions that enhance people&apos;s lives. <br/><br/>
             One of my strengths is being a team player. I enjoy collaborating with others to find creative solutions to complex problems. I also consider myself a leader who can handle stressful situations with ease. In addition, I am a very flexible person who can adapt to changing circumstances and embrace new challenges. <br/><br/>
             Apart from my academic and professional pursuits, I am also a fitness enthusiast. I believe that a healthy body leads to a healthy mind, which is why I enjoy going to the gym regularly.
           </p>
