@@ -18,7 +18,7 @@ const About = () => {
             Apart from my academic and professional pursuits, I am also a fitness enthusiast. I believe that a healthy body leads to a healthy mind, which is why I enjoy going to the gym regularly.
           </p>
           <div id="face-button-box">
-            <a className="face-button" href="../public/assets/Rikko_Keuppens_CV.pdf" download>
+            <a className="face-button" href="/assets/Rikko_Keuppens_CV.pdf" download>
               <div className="face-primary">
                 <span className="icon fa fa-cloud"></span>
                 Download CV
