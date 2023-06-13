@@ -22,8 +22,6 @@ import { default as azurePipelineSkill } from "../public/static/images/azurepipe
 import { default as phpSkill } from "../public/static/images/php.png";
 import { default as laravelSkill } from "../public/static/images/laravel.svg";
 
-
-
 export const skills = [
   ['html', htmlSkill],
   ['css', cssSkill],

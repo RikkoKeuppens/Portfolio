@@ -53,8 +53,9 @@ const Navbar = () => {
 
   const linkData = [
     ['Home', '/'],
-    ['About', '/#about'],
+    ['About me', '/#about'],
     ['Skills', '/#skills'],
+    ['Internship', '/#internship'],
     ['Projects', '/#projects'],
     ['Contact', '/#contact'],
   ];

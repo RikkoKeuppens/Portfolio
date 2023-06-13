@@ -5,14 +5,6 @@ import phpImg from '../public/static/images/Projects/PHP/Project-PHP.png';
 
 export const projects = [
   {
-    id: 1,
-    title: 'Candidate Assessment Dashboard - Internship',
-    backgroundImg: cadImg,
-    stack: ['Angular, .NET Core, MySql, Tailwind'],
-    projectDetails: 'cad',
-    projectRepo: '',
-  },
-  {
     id: 2,
     title: 'Crowd based monitoring system - Project 4.0',
     backgroundImg: abmsImg,

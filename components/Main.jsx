@@ -3,6 +3,8 @@ import Typed from 'typed.js';
 import { BsYoutube, BsMedium } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import Link from 'next/link';
+import Image from 'next/image';
+import landingPageImg from '/public/static/images/landing-page.svg'
 
 const Main = () => {
   const el = useRef(null);
@@ -32,7 +34,7 @@ const Main = () => {
   return (
     <div id='home' className='w-full h-screen text-center'>
       <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
-        <div>
+        <div id='landingText'>
           <p className='uppercase text-sm tracking-widest text-gray-600'>
             Always ready for a new project
           </p>
@@ -46,10 +48,8 @@ const Main = () => {
             A <span ref={el}></span>
           </h1>
           <p className='py-4 text-gray-600 max-w-[70%] m-auto'>
-            I&apos;m a full stack developer specializing in building flexible and sustainable software solutions. Currently
-            I&apos;m focused on learning as much about dotnet and front-end frameworks as possible.
+            This portfolio represents my journey as an IT student at Thomas More Geel, showcasing my skills and accomplishments during my graduation.
           </p>
-
           <div className='social-container social-main'>
             <Link
               href={'https://www.linkedin.com/in/rikko-keuppens-544830222/'}
@@ -64,6 +64,9 @@ const Main = () => {
               </div>
             </Link>
           </div>
+        </div>
+        <div id='programming' className='w-1/3 '>
+          <Image className='ml-auto mr-auto ' src={landingPageImg} width='400' height='150' alt='programming'/>
         </div>
       </div>
     </div>
