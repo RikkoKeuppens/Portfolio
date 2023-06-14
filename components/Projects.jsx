@@ -1,12 +1,12 @@
 import React from 'react';
 import ProjectItem from './ProjectItem';
 import { projects } from '../utils';
-import Cad from "../projects/abms";
-import MyCarouselABMS from "../utils/MyCarouselABMS";
 import ABMS from "../projects/abms";
 import PHP from "../projects/php";
 import SW from "../projects/SW";
 import ANG from "../projects/ang";
+import GOG from "../projects/gog";
+import BEER from "../projects/beer";
 
 const Projects = () => {
   return (
@@ -39,6 +39,12 @@ const Projects = () => {
         </div>
         <div id="SW" className='hidden pt-10'>
           <SW/>
+        </div>
+        <div id="GOG" className='hidden pt-10'>
+          <GOG/>
+        </div>
+        <div id="BEER" className='hidden pt-10'>
+          <BEER/>
         </div>
       </div>
     </div>

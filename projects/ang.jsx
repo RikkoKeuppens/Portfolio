@@ -16,26 +16,22 @@ const ANG = () => {
 
     return (
         <div className="w-full">
-            <p className="mb-2 pt-16 uppercase text-sm tracking-widest text-gray-600" >Assignment</p>
-            <p>
-                This is a solo project for the course Angular. I had to create a movie database using an external API. In
-                the project you can search any movie. U can go to the details and see the rating, actors, description, etc...
-                I can add a movie to your watchlist and review it.
-            </p>
-            <div className="flex pt-8 w-full">
-                <div className="w-1/2 pr-4">
-                    <p className="mb-2 uppercase text-sm tracking-widest text-gray-600" >Implementation</p>
+            <div className="sm:block md:flex pt-16 w-full">
+                <div className="sm:w-full md:w-1/2 pr-4 mb-3 text-justify">
+                    <p className="mb-2 uppercase text-sm tracking-widest text-gray-600" >Assignment</p>
                     <p>
-                        I used Angular for this project. I also used a JSON database to save the API Data.
-                        For the external API, I used the movies database API. For my styling I used Tailwind.
+                        This project was an individual undertaking for the Angular course. Its objective was to develop a movie database utilizing an external API. The application allows users to search for any movie of their choice and explore its details, including ratings, actors, descriptions, and more. Additionally, users have the ability to add movies to their watchlist and provide reviews. The project was assigned by the esteemed organization, dotNET lab.
+                    </p>
+                    <p className="mb-2 pt-8 uppercase text-sm tracking-widest text-gray-600" >Implementation</p>
+                    <p>
+
+                        For this project, I utilized Angular as the framework to develop the application. To store and manage the API data, I employed a JSON database. The external API used in this project was the movies database API, which provided the necessary movie information. As for the styling, I opted for Tailwind, a popular CSS framework, to create the desired visual design and layout.
                     </p>
                     <p className="mb-2 pt-8 uppercase text-sm tracking-widest text-gray-600" >What did I learn</p>
                     <p>
-                        I learned a lot about Angular in this project. My knowledge was very limited so the project took a few days.
-
-                    </p>
+                        During this project, I had the opportunity to significantly enhance my knowledge of Angular. Since my familiarity with the framework was limited, I dedicated several days to grasp its concepts and implement them effectively. The learning process was intensive, but it allowed me to gain valuable experience and skills in Angular development. Overall, this project served as a valuable learning experience and helped me expand my proficiency in Angular.                    </p>
                 </div>
-                <div className="w-1/2 pl-4">
+                <div className="sm:w-full md:w-1/2 ml-4">
                     <MyCarouselAngular/>
                 </div>
             </div>

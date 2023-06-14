@@ -8,7 +8,7 @@ import MyCarousel from "../utils/MyCarousel";
 const Internship = () => {
     return (
         <div id='internship' className='w-full p-2 pb-0'>
-            <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
+            <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8 text-justify'>
                 <div className='col-span-2'>
                 <p className='uppercase text-xl tracking-widest text-[#5651e5] mt-10'>
                     Internship
@@ -16,9 +16,9 @@ const Internship = () => {
                 <h2 className='pt-4 '>Candidate Assessment Dashboard</h2>
                 </div>
                 <div className='col-span-3 mb-5'>
-                    <p className="uppercase text-sm tracking-widest text-gray-600" >My internship company</p>
-                    <div className='w-full flex pt-2'>
-                        <p className='w-1/2 pr-4 pt-2'>
+                    <p className="uppercase text-sm tracking-widest text-gray-600 pt-4" >My internship company</p>
+                    <div className='w-full sm:block md:flex pt-2'>
+                        <p className='sm:w-ful md:w-1/2 pr-4 pt-2'>
                             In March 2023, I began a 13-week internship at dotNET lab, a software consultancy company located in Heultje Westerlo.
                             dotNET lab specializes in educating junior software engineers, making it an ideal environment for me to enhance my skills
                             and knowledge in this field.
@@ -30,9 +30,9 @@ const Internship = () => {
                 </div>
                 <div className='col-span-3'>
                     <p className="uppercase text-sm tracking-widest text-gray-600" >The application</p>
-                    <div className='flex'>
-                        <div className='w-1/2 mt-2 mr-5 pl-0 p-2'><MyCarousel /></div>
-                        <div className='w-1/2 mt-2 ml-5 pr-0 p-2'>
+                    <div className='sm:block md:flex'>
+                        <div className='sm:w-ful md:w-1/2 mt-2 mr-5 pl-0 p-2'><MyCarousel /></div>
+                        <div className='sm:w-ful md:w-1/2 mt-2 md:ml-5 pr-0 md:p-2 pb-5'>
                             <p>During my internship, I developed an application specifically designed for the recruitment department. The objective was to
                                 create a platform that assists recruiters in efficiently managing and evaluating job applicants. The application enables
                                 recruiters to send customized emails to candidates, including a link to access a comprehensive technical and personality test.
@@ -41,7 +41,7 @@ const Internship = () => {
                         </div>
                     </div>
                 </div>
-                <div className='col-span-3 mb-5'>
+                <div className='col-span-3 mb-5 sm:pt-4 md:pt-0'>
                     <p className="uppercase text-sm tracking-widest text-gray-600" >Documents (all dutch)</p>
                     <div className='w-full pt-2'>
                         <p>Plan van aanpak: <a className='text-blue-900 font-bold' target='_blank' rel="noreferrer" href="https://www.youtube.com/watch?v=hHl5VUFVeuE&ab_channel=RikkoKeuppens">Video</a></p>

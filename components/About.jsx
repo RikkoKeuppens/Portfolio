@@ -19,10 +19,9 @@ const About = () => {
           <p className='pb-2 text-gray-600 text-justify pr-4'>
             My name is Rikko Keuppens, a student Applied Computer Science at Thomas More University in Geel. I was born in 2001 and raised in Herenthout. As a future full stack developer, I am passionate about creating innovative and user-friendly software solutions that enhance people&apos;s lives. <br/><br/>
             One of my strengths is being a team player. I enjoy collaborating with others to find creative solutions to complex problems. I also consider myself a leader who can handle stressful situations with ease. In addition, I am a very flexible person who can adapt to changing circumstances and embrace new challenges. <br/><br/>
-            Apart from my academic and professional pursuits, I am also a fitness enthusiast. I believe that a healthy body leads to a healthy mind, which is why I enjoy going to the gym regularly.
           </p>
-          <div className='flex w-full'>
-            <div className='w-1/2'>
+          <div className='sm:block md:flex w-full'>
+            <div className='sm:w-full md:w-1/2'>
               <p className='mt-5 mb-2 font-bold'>Contact details</p>
               <p className='text-gray-600'>
                 +32 476 58 53 57
@@ -47,7 +46,7 @@ const About = () => {
                 Internship - dotNET lab - 2023
               </p>
             </div>
-            <div className='w-1/2 flex flex-col justify-end'>
+            <div className='sm:w-full md:w-1/2 flex flex-col justify-end'>
               <div id="face-button-box">
                 <a className="face-button" href="/assets/Rikko_Keuppens_CV.pdf" rel="noopener noreferrer" target="_blank">
                   <div className="face-primary">

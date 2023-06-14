@@ -12,7 +12,7 @@ const ProjectItem = ({ title, backgroundImage, stack, projectDetails, projectRep
         alt={title}
       />
       <div className='hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
-        <h3 className='text-lg text-white tracking-wider text-center'>
+        <h3 className='sm:text-md md:text-lg text-white tracking-wider text-center'>
           {title}
         </h3>
         <p className='pb-4 pt-2 text-white text-center'>{stack}</p>
@@ -45,6 +45,10 @@ function showDivAndScrollTo(divId) {
     SW.style.display = 'none';
     var ANG = document.getElementById("ANG");
     ANG.style.display = 'none';
+    var GOG = document.getElementById("GOG");
+    GOG.style.display = 'none';
+    var BEER = document.getElementById("BEER");
+    BEER.style.display = 'none';
 
 
     var divKey = Object.keys(divId)[0]; // Get the key of the object
