@@ -12,7 +12,7 @@ const ProjectItem = ({ title, backgroundImage, stack, projectDetails, projectRep
         alt={title}
       />
       <div className='hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
-        <h3 className='text-2xl text-white tracking-wider text-center'>
+        <h3 className='text-lg text-white tracking-wider text-center'>
           {title}
         </h3>
         <p className='pb-4 pt-2 text-white text-center'>{stack}</p>
@@ -37,12 +37,22 @@ const ProjectItem = ({ title, backgroundImage, stack, projectDetails, projectRep
 
 
 function showDivAndScrollTo(divId) {
+    var php = document.getElementById("PHP");
+    php.style.display = 'none';
+    var CBMS = document.getElementById("CBMS");
+    CBMS.style.display = 'none';
+    var SW = document.getElementById("SW");
+    SW.style.display = 'none';
+    var ANG = document.getElementById("ANG");
+    ANG.style.display = 'none';
+
+
     var divKey = Object.keys(divId)[0]; // Get the key of the object
     var divValue = divId[divKey]; // Get the value of the object
 
     var div = document.getElementById(divValue);
 
-    console.log(div);
+    console.log(divValue);
     // Check if the div exists
     if (div) {
         // Make the div visible

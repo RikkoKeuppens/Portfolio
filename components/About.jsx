@@ -13,7 +13,7 @@ const About = () => {
           <p className='uppercase text-xl tracking-widest text-[#5651e5]'>
             About me
           </p>
-          <h2 className='pt-4'>Who I am</h2>
+          <h2 className='pt-4'>Who am I</h2>
         </div>
         <div className='col-span-2'>
           <p className='pb-2 text-gray-600 text-justify pr-4'>
